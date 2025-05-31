@@ -1,19 +1,21 @@
 package com.attendance.backend.model;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
 
-@Entity                      // This tells Spring this class = table
-@Data                        // Lombok: adds getters, setters, toString, etc.
-@NoArgsConstructor           // Lombok: makes a no-arg constructor
-@AllArgsConstructor          // Lombok: makes a full constructor
+@Entity
+@Table(name = "students")
+@Data  // Lombok annotation generates all getters, setters, toString, equals, hashCode
 public class Student {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;          // Primary key
+    private String registerNumber;  // primary key
 
     private String name;
-    private String rollNumber;
+    private String email;
     private String department;
+    private String section;
+    private int year;
 }
