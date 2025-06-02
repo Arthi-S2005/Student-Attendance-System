@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c28b51eb-7752-4d5a-b8ce-e692ea83dedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/controller/AttendanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/model/Attendance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/model/QRCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/repository/AttendanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/repository/QRCodeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/service/AttendanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/service/QRCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/attendance/backend/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xwhYrBXCmHfWAzOk1bSCQMwNbt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BackendApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/arthi/Documents/Student-Attendance-System",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c28b51eb-7752-4d5a-b8ce-e692ea83dedb" name="Changes" comment="" />
+      <created>1748855094284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748855094284</updated>
+    </task>
+    <servers />
+  </component>
+</project>

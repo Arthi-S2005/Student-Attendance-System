@@ -2,26 +2,24 @@ package com.attendance.backend.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "students")
+@Table(name = "qrcodes")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Student {
+public class QRCode {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = true)
-    private String email;
+    private String code;
 
-    private String name;
+    private LocalDateTime validFrom;
 
-    private String password;
+    private LocalDateTime validUntil;
 
-    private String role = "STUDENT";
+    private String className;
 }
-
-
